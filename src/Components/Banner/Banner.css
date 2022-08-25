@@ -1,0 +1,301 @@
+.home-page-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-page-cards .home-page-col-one {
+    width: 20%;
+    padding-bottom: 30px;
+    overflow: hidden;
+    height: 410px;
+}
+
+.home-page-cards .home-page-col-two {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.home-page-cards .home-page-col-three {
+    width: 30%;
+    height: 420px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.home-page-col-one {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.col-card-one-img1 img {
+    width: 100%;
+    height: 70px;
+    background-position: top;
+}
+
+.col-card-one-img2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-card-one-img2 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+}
+
+.marvel-home-page-name {
+    margin-top: 49px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.marvel-home-page-about p {
+    text-align: center;
+    font-size: 11px;
+    padding: 0 10px 10px 10px;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.profile-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 3px 20px;
+}
+
+.profile-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px 0px 20px;
+}
+
+.second-col-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 12px 0px 12px;
+}
+
+.second-col-search img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.second-col-search input {
+    width: 80%;
+    margin-right: 20px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(133, 133, 133, 0.678);
+}
+
+.exclusive-content-home {
+    padding: 3px 10px 0px 15px;
+}
+
+.exclusive-content-home p:first-child {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+}
+
+.exclusive-content-home p:last-child {
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-icons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.page-icons ul {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.page-icons ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.page-icons ul li span {
+    margin-right: 10px;
+}
+
+.postContainer {
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+}
+
+.userpostdetails {
+    display: flex;
+    padding: 10px 15px 2px 15px;
+}
+
+.userpostmaindetails {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+
+.userdetailsnamepost {
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.userdetailsnamepost-about {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+}
+
+.mainfeedpost {
+    padding: 3px 15px 2px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.userpostdetails-img img {
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.mainfeedpost img {
+    width: 100%;
+    height: 80vh;
+}
+
+.postAction {
+    padding: 10px;
+}
+
+.postAction ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.postAction ul li {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.postAction ul li {
+    padding-right: 5px;
+}
+
+.homepage-header p {
+    padding-left: 20px;
+    font-weight: 500;
+    color: rgb(63, 61, 61);
+}
+
+.homepage-header ul li {
+    font-weight: 500;
+    color: rgb(63, 61, 61);
+    padding-top: 10px;
+
+}
+
+@media (max-width:1024px) {
+    .home-page-cards .home-page-col-one {
+        margin-left: 10px;
+    }
+
+    .postContainer {
+        height: 110vh;
+    }
+}
+
+@media (max-width:768px) {
+    .home-page-cards .home-page-col-one {
+        height: 455px;
+        margin-right: 10px;
+    }
+
+    .home-page-cards .home-page-col-three {
+        width: 32%;
+        height: 525px;
+        margin-left: 10px;
+        /* padding: 20px; */
+    }
+
+    .mainfeedpost img {
+        height: 50vh;
+    }
+
+    .postAction ul li {
+        margin-left: -28px;
+    }
+
+    .postContainer {
+        height: 85vh;
+    }
+
+    .page-icons ul li {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .home-page-cards .home-page-col-one {
+        display: none;
+    }
+
+    .new {
+        display: none;
+    }
+
+    .home-page-cards .home-page-col-three {
+        display: none;
+
+    }
+}
+
+@media (max-width:425px) {
+    .postContainer {
+        width: 90vw;
+        margin-left: 9px;
+    }
+}
+
+@media (max-width:320px) {
+    .postContainer {
+        width: 105vw;
+        margin-left: 20px;
+    }
+}
